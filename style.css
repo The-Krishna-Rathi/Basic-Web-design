@@ -132,3 +132,25 @@ header{
 	transform: translate(-30%, -30%);
 	text-align: center;
 }
+
+
+/**********************************/
+/* Styling Main content Section 1 */
+/**********************************/
+
+#welcome{
+	margin: 0px auto;
+	overflow: hidden;
+	width: 1000px;
+}
+
+#welcome .title{
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+#welcome p{
+	margin-bottom: 40px;
+	text-align: center;
+}
