@@ -154,3 +154,51 @@ header{
 	margin-bottom: 40px;
 	text-align: center;
 }
+
+
+/**********************************/
+/* Styling Main content Section 2 */
+/**********************************/
+#section-2{
+	overflow: hidden;
+	margin-top: 5em;
+	padding-top: 1em;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.row #column1,
+.row #column2,
+.row #column3{
+		float: left;
+		width: 320px;
+		padding: 80px 40px 80px 40px;
+}
+
+.column-title h2{
+	margin: 1em 0em;
+	font-size: 1.6em;
+	font-weight: 700;
+}
+
+.button {
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: white;
+	border: 2px solid #4CAF50;
+	padding: 16px 32px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+	
+.button:hover {
+	background-color: white;
+	color: #4CAF50;
+}
+
+
